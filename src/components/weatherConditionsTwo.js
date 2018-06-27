@@ -13,7 +13,7 @@ class WeatherConditionsTwo extends React.Component {
                 {this.props.pressure && <p><span>Pressure: </span>{this.props.pressure} hpa</p>}
                 {this.props.humidity && <p><span>Humidity: </span>{this.props.humidity} %</p>}
                 {this.props.description && <p><span>Conditions: </span>{this.props.description}</p>}
-                {this.props.wind && <p><span>Speed of Wind: </span>{this.props.wind} m/s</p>}
+                {this.props.wind && <p><span>Wind: </span>{this.props.wind} m/s</p>}
             </div>
         )
     }
