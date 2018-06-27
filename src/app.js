@@ -2,6 +2,7 @@ import React from 'react'
 import Form from "./components/form"
 import WeatherConditions from "./components/weatherConditions"
 import AppTwo from "./appTwo";
+import Clock from "./components/clock";
 
 class App extends React.Component {
     constructor(props) {
@@ -95,7 +96,7 @@ class App extends React.Component {
                             </div>
                         </div>
                         <div className="col-sm-4 middleBar">
-
+                            <Clock/>
                         </div>
                         <div className="col-sm-4 currentWeather">
                             <h1>Weather conditions in your area</h1>
@@ -138,7 +139,7 @@ class App extends React.Component {
                             </div>
                         </div>
                         <div className="col-sm-4 middleBar">
-
+                            <Clock/>
                         </div>
                         <div className="col-sm-4 currentWeather">
                             <h1>Weather conditions in your area</h1>
@@ -181,7 +182,7 @@ class App extends React.Component {
                             </div>
                         </div>
                         <div className="col-sm-4 middleBar">
-
+                            <Clock/>
                         </div>
                         <div className="col-sm-4 currentWeather">
                             <h1>Weather conditions in your area</h1>
@@ -224,7 +225,7 @@ class App extends React.Component {
                             </div>
                         </div>
                         <div className="col-sm-4 middleBar">
-
+                            <Clock/>
                         </div>
                         <div className="col-sm-4 currentWeather">
                             <h1>Weather conditions in your area</h1>
@@ -267,7 +268,7 @@ class App extends React.Component {
                             </div>
                         </div>
                         <div className="col-sm-4 middleBar">
-
+                            <Clock/>
                         </div>
                         <div className="col-sm-4 currentWeather">
                             <h1>Weather conditions in your area</h1>
@@ -310,7 +311,7 @@ class App extends React.Component {
                             </div>
                         </div>
                         <div className="col-sm-4 middleBar">
-
+                            <Clock/>
                         </div>
                         <div className="col-sm-4 currentWeather">
                             <h1>Weather conditions in your area</h1>
