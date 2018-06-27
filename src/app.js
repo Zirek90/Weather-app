@@ -20,7 +20,7 @@ class App extends React.Component {
         }
     }
 
-
+    // getting api and putting data to states
     getWeather = async (e) => {
         e.preventDefault();
 
@@ -54,7 +54,7 @@ class App extends React.Component {
 
     }
 
-
+    // downloading background images and putting them to table
     render() {
         const clearSky = [
             (require(`./img/clearSky.jpg`)),
@@ -72,7 +72,7 @@ class App extends React.Component {
             {background: `url(" ${clearSky[4]}")center/cover no-repeat`}
         ]
 
-
+    // setting if statements for all weather conditions
         if (this.state.description.includes("clear")) {
             return (
                 <div>
