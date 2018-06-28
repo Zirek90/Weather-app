@@ -3,6 +3,7 @@ import Form from "./components/form"
 import WeatherConditions from "./components/weatherConditions"
 import AppTwo from "./appTwo";
 import Clock from "./components/clock";
+import config from "./config.js"
 
 class App extends React.Component {
     constructor(props) {
@@ -25,11 +26,12 @@ class App extends React.Component {
     getWeather = async (e) => {
         e.preventDefault();
 
-        const apiKey = "282e9ed46fc324d3723c7446a8268ff2";
+        // const apiKey = ;
+        var myKey = config.my_key
         const city = e.target.elements.city.value;
         const country = e.target.elements.country.value;
 
-        const getData = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&APPID=${apiKey}&units=metric`);
+        const getData = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&APPID=${myKey}&units=metric`);
 
         const data = await getData.json();
         console.log(data);
