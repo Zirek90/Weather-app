@@ -1,0 +1,12 @@
+{
+  "main.css": "static/css/main.9b9f21cd.css",
+  "main.css.map": "static/css/main.9b9f21cd.css.map",
+  "main.js": "static/js/main.a628134f.js",
+  "main.js.map": "static/js/main.a628134f.js.map",
+  "static/media/clearSky.jpg": "static/media/clearSky.47191947.jpg",
+  "static/media/cloudySky.jpg": "static/media/cloudySky.98ee8c5e.jpg",
+  "static/media/defaultPicture.jpg": "static/media/defaultPicture.11a8a0b8.jpg",
+  "static/media/hazeSky.jpg": "static/media/hazeSky.9a446c93.jpg",
+  "static/media/rainySky.jpg": "static/media/rainySky.dda3831b.jpg",
+  "static/media/stormySky.jpg": "static/media/stormySky.3710bcbe.jpg"
+}
