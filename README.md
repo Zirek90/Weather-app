@@ -10,3 +10,4 @@ To check random city I added function which is launched when submit button is cl
 Geolocation is launched automatically.
 Also between them is clock which shows actual date and time.
 
+You can check DEMO with this link https://zirek90.github.io/Weather-app/
