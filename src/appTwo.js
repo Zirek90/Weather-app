@@ -1,5 +1,5 @@
 import React from 'react'
-import WeatherConditionsTwo from "./components/weatherConditionsTwo"
+import WeatherConditions from "./components/weatherConditions"
 
 class AppTwo extends React.Component {
     constructor(props) {
@@ -56,7 +56,7 @@ class AppTwo extends React.Component {
     render() {
         return (
             <div>
-            <WeatherConditionsTwo
+            <WeatherConditions
                 city={this.state.city}
                 country={this.state.country}
                 temperature={this.state.temperature}

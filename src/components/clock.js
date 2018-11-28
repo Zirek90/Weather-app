@@ -29,26 +29,18 @@ class Clock extends React.Component {
 }
 
 
-class ClockTime extends React.Component {
-    // constructor(props) {
-    //     super(props)
-    // }
-    render() {
-        return (
-            <h1 className="clock">{this.props.tim}</h1>
-        )
-    }
+const ClockTime = (props) => {
+
+    return (
+        <h1 className="clock">{props.tim}</h1>
+    )
 }
 
-class ClockDate extends React.Component {
-    // constructor(props) {
-    //     super(props)
-    // }
-    render() {
-        return (
-            <h1>{this.props.day}</h1>
-        )
-    }
+const ClockDate = (props) => {
+
+    return (
+        <h1>{props.day}</h1>
+    )
 }
 
 export default Clock;
